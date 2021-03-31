@@ -9,7 +9,7 @@ int stepIncrement = 6; //initial step increment, can be changed in accel loop
 float deg = 0;
 long pos = 0;
 int val = 0;
-long desPos = -40000; //8050; // 800 ticks per revolution at slow speed
+long desPos = 2000; //8050; // 800 ticks per revolution at slow speed
 
 const int stepsPerRev = 800;
 
